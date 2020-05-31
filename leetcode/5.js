@@ -15,8 +15,18 @@ var longestPalindrome = function(s) {
             let length = right - left - 1; //(right - 1) - (left + 1) + 1
             if (length > result.length) {
                 result = s.substr(left + 1, length);
+                      // s.substring(left + 1, left + 1 + length);
             }
         }
     }
     return result;
 };
+
+
+
+
+/**  
+ substr & substring
+ substr: 抽取从 start 下标开始的指定数目的字符
+ substring: 提取字符串中介于两个指定下标之间的字符
+ */
