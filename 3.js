@@ -1,4 +1,4 @@
-// 无重复符的最长子串
+// 无重复字符的最长子串
 
 // bymyself
 var lengthOfLongestSubstring = function(s) {
