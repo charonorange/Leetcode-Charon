@@ -25,3 +25,11 @@ var thirdMax = function(nums) {
         }
     }
 };
+
+
+var a = function () {
+    var arr = 333
+    function test () {
+       return  arr + 1
+    }
+}
