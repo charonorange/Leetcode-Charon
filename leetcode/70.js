@@ -1,4 +1,4 @@
-// 爬楼梯
+// 爬楼梯 动态规划
 
 var climbStairs = function(n) {
     const dp = []
